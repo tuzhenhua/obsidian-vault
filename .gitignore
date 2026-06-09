@@ -1,4 +1,38 @@
+# ============================================
+# Obsidian Vault - Git 同步配置
+# 两台电脑之间同步笔记，但排除机器相关配置
+# ============================================
+
+# --- Obsidian 配置（选择性同步）---
 .obsidian/
+
+# 以下文件跨机器共享 —— 取消忽略
+!.obsidian/app.json
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/types.json
+
+# 插件目录（两台电脑装一样的插件）
+!.obsidian/plugins/
+
+# 如果有自定义快捷键文件
+!.obsidian/hotkeys.json
+
+# --- 以下文件每台机器不同，不同步 ---
+# .obsidian/workspace.json    已随 .obsidian/ 整体忽略
+# .obsidian/appearance.json   已随 .obsidian/ 整体忽略
+# .obsidian/graph.json        已随 .obsidian/ 整体忽略
+
+# --- 垃圾与临时文件 ---
 .trash/
-.claude/
 .DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# --- AI 助手内部文件 ---
+.claude/
+.claudian/
+
+# --- 私密文件 ---
+99-私密/
