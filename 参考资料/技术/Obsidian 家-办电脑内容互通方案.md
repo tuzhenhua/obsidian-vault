@@ -4,6 +4,7 @@ tags:
   - 工具
   - git
 created: 2026-05-31
+source: reference
 ---
 
 # Obsidian 家里 ↔ 办公电脑内容互通方案

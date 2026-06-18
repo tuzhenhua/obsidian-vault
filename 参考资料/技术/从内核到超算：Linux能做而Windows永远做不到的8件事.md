@@ -1,3 +1,7 @@
+---
+source: reference
+---
+
 Linux 和 Windows 的设计哲学根本不同：一个开源、模块化，以自由和可定制为核心；另一个是商业闭源系统，侧重易用和生态统一。因此，确实有一些事情是 **Linux 内核与系统原生就能做到，而 Windows（在不借助虚拟机或 WSL 等额外运行 Linux 环境的情况下）完全无法做到或无法等价实现**。
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_jpg/x4icnictNGicLb6jXY1DoZL1NOpACxv6Hgoja8Xc5YledsxUU1xIol0oEWJ7AuGKk0oWGwU3ppoGDehC4uYbemx9tuyxYLMILpt6fHMdvfMGW8/640?wx_fmt=jpeg&from=appmsg)

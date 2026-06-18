@@ -5,6 +5,7 @@ tags:
   - 软件设计
   - Unix哲学
 created: 2026-06-03
+source: reference
 ---
 
 网站服务器上的 Nginx，只有几 MB。
