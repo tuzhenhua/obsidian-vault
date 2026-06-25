@@ -34,5 +34,8 @@ Thumbs.db
 .claude/
 .claudian/
 
+# --- Copilot 聊天记录和提示词 ---
+copilot/
+
 # --- 私密文件 ---
 99-私密/
